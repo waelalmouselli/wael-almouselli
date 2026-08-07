@@ -97,15 +97,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if (menuToggle && navLinks) {
-        if (navLinks.children.length === 0) {
-            navLinks.innerHTML = `
-                <a href="index.html">Home</a>
-                <a href="#services">Services</a>
-                <a href="cv.html">About Me</a>
-                <a href="#contact" class="btn-outline">Let's Talk</a>
-            `;
-        }
-
         menuToggle.addEventListener('click', () => {
             navLinks.classList.toggle('active');
             menuToggle.innerHTML = navLinks.classList.contains('active') ? '✕' : '☰';
