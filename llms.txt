@@ -1,0 +1,18 @@
+# Wael Almouselli - Web Developer & Digital Media Buyer
+
+> Full-Stack Web Developer and Digital Media Buyer specializing in high-converting websites, speed optimization, and targeted paid ad campaigns.
+
+Optional: For full details and comprehensive background, see [llms-full.txt](https://waelalmouselli.net/llms-full.txt)
+
+## Core Expertise & Services
+- [Web Development](https://waelalmouselli.net): Custom responsive websites, UI/UX optimization, SEO, and Cloudflare deployment.
+- [Digital Media Buying](https://waelalmouselli.net): High-ROI advertising campaigns across Meta (Instagram/Facebook) and Google Ads.
+- [GEO & AI Optimization](https://waelalmouselli.net): Structuring websites for AI discovery and generative search engines.
+
+## Main Pages
+- [Portfolio & Home](https://waelalmouselli.net/): Overview of services, projects, and contact info.
+- [Privacy Policy](https://waelalmouselli.net/privacy.html): Site usage terms and privacy guidelines.
+
+## Contact
+- Portfolio: https://waelalmouselli.net
+- Direct Contact: wael.mouslli@gmail.com

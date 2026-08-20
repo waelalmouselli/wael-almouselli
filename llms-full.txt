@@ -1,0 +1,30 @@
+# Wael Almouselli - Comprehensive Professional Profile
+
+## 1. Professional Summary
+Wael Almouselli is a Full-Stack Web Developer and Digital Media Buyer. He specializes in building high-performance, SEO/GEO-optimized websites and managing high-ROI online advertising campaigns. Wael extensively leverages advanced AI tools for media generation, interior design rendering, and custom audio production to create compelling commercial content.
+
+## 2. Core Technical Skills
+
+### Web Development & Infrastructure
+- **Languages & Platforms:** HTML, CSS, JavaScript, WordPress.
+- **Infrastructure:** Cloudflare (Minification, Caching, DNS, SSL), GitHub.
+- **Search & AI Optimization:** Technical SEO, GEO (Generative Engine Optimization), Schema Markup (JSON-LD), Meta tags, and strict mobile responsiveness.
+
+### Digital Media Buying & Marketing
+- **Campaign Management:** Targeted advertising across Meta (Instagram/Facebook) and Google Ads.
+- **Content Strategy:** Development of social media ad content, Instagram Reels, carousel posts, and promotional copy featuring high-converting hooks and CTAs.
+
+### AI Media & Audio Production
+- **Visual AI Generation:** Creation of photorealistic renders and promotional videos for modern kitchens, walk-in closets, luxury interiors, and home decor.
+- **Audio Production:** Generation of custom instrumental background music (grand piano, lofi, deep house, corporate ambient) for commercial video reels.
+
+## 3. Notable Projects & Portfolio
+
+- **waelalmouselli.net (Personal Portfolio):** Custom-built and deployed with complete SEO/GEO optimization, advanced Meta tags, Schema markup, and Cloudflare integration.
+- **Swiss Kitchen & Wardrobe:** Developed the full digital and web presence. Built the website using HTML/CSS/JS, hosted via Cloudflare. Produced digital ad campaigns, promotional reel prompts, video outros, and marketing graphics.
+- **Taraf Style (tarafstyleforabaya.com):** E-commerce website technical optimization, focusing on mobile responsiveness, Meta tags, and Schema markup.
+- **البيت الملكي & المحترف للمطابخ:** Developed comprehensive social media branding, logo concepts, Instagram posts, and marketing captions for interior design campaigns.
+
+## 4. Contact Information
+- **Official Website:** https://waelalmouselli.net
+- **Email:** wael.mouslli@gmail.com
