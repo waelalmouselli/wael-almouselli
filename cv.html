@@ -4,16 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <meta name="description" content="Wael Almouselli - Elite Full-Stack Architect & Performance Media Buyer CV.">
     <title>Wael Almouselli | Executive CV & Professional Profile</title>
-    <link rel="stylesheet" href="style.css">
 
-    <!-- Preconnect & Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Outfit:wght@300;500;700&display=swap"
-        rel="stylesheet">
+    <!-- Canonical Tag -->
+    <link rel="canonical" href="https://waelalmouselli.net/cv.html" />
+
+    <!-- Preload Main Visual Image for Speed (LCP) -->
+    <link rel="preload" as="image" href="img/service-webdev.webp" fetchpriority="high" />
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body class="cv-page">
@@ -21,18 +23,17 @@
     <!-- Header Navigation -->
     <header class="navbar">
         <div class="container nav-flex">
-            <div class="logo">
+            <a href="index.html" class="logo logo-link">
                 <img src="img/logo.webp" alt="Wael Almouselli Logo" width="50" height="50" fetchpriority="high">
                 <span>WAEL ALMOUSELLI</span>
-            </div>
-            <nav class="nav-links">
+            </a>
+            <nav class="nav-links" id="nav-menu">
                 <a href="index.html">Home</a>
                 <a href="index.html#services">Services</a>
                 <a href="cv.html" class="active-link">About Me</a>
                 <a href="index.html#courses">Courses</a>
-                <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" class="btn-outline">Let's Talk</a>
+                <a href="index.html#contact" class="btn-outline">Let's Talk</a>
             </nav>
-            <!-- تم إضافة زر الموبايل هنا ليتوافق مع باقي الصفحات -->
             <div class="menu-toggle" id="mobile-menu">&#9776;</div>
         </div>
     </header>
@@ -40,7 +41,9 @@
     <main>
         <!-- CV Hero & Profile Section -->
         <section class="cv-hero-section">
-            <canvas class="matrix-bg-cv"></canvas>
+            <!-- خلفية التأثير البرمجي المطر (Matrix Rain Canvas) -->
+            <canvas class="matrix-bg matrix-bg-cv"></canvas>
+
             <div class="container cv-grid">
 
                 <!-- Professional Photo with Elite Animation -->
@@ -123,9 +126,8 @@
     <footer id="contact" class="footer bg-black">
         <div class="container">
             <h2>Ready to Dominate Your Market?</h2>
-            <a href="https://wa.me/971501517909" target="_blank" rel="noopener noreferrer"
-                class="btn-primary btn-large">Let's Build
-                Magnificence</a>
+            <a href="https://wa.me/971501517909?text=Hi%20Wael,%20let's%20build%20magnificence!" target="_blank"
+                rel="noopener noreferrer" class="btn-primary btn-large">Let's Build Magnificence</a>
 
             <div class="footer-social-box">
                 <a href="mailto:contact@waelalmouselli.net" class="royal-email-badge" title="Official Email">
@@ -144,6 +146,8 @@
         </div>
     </footer>
 
+    <!-- تحميل سكربت الـ CV وسكربت الموقع لضمان عمل تأثير المطر والقائمة -->
+    <script defer src="script.js"></script>
     <script defer src="script-cv.js"></script>
 </body>
 
