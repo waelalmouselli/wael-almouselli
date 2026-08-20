@@ -5,9 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <title>
-    Wael Almouselli | Elite Full-Stack Developer & ROI Media Buyer
-  </title>
+  <title>Wael Almouselli | Elite Full-Stack Developer & ROI Media Buyer</title>
   <meta name="description"
     content="Hire Wael Almouselli, elite Full-Stack Web Developer and Performance Media Buyer with 17+ years of experience in Dubai, UAE & global markets. Scale your ROI today." />
   <meta name="keywords"
@@ -31,89 +29,119 @@
   <meta name="twitter:description" content="Top-tier Web Development & ROI Media Buying services and mentorship." />
   <meta name="twitter:image" content="https://waelalmouselli.net/img/service-webdev.webp" />
 
-  <!-- Schema.org Markup (Local Business & Professional Service) -->
+  <!-- Schema.org Markup (JSON-LD Graph for AI & GEO) -->
   <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "ProfessionalService",
-      "name": "Wael Almouselli - Full-Stack Developer & Media Buyer",
-      "image": "https://waelalmouselli.net/img/logo.webp",
-      "@id": "https://waelalmouselli.net/",
-      "url": "https://waelalmouselli.net/",
-      "telephone": "+971501517909",
-      "priceRange": "$$$",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Dubai",
-        "addressRegion": "Dubai",
-        "addressCountry": "AE"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 25.2048,
-        "longitude": 55.2708
-      },
-      "areaServed": [
-        {
-          "@type": "Country",
-          "name": "United Arab Emirates"
-        },
-        {
-          "@type": "City",
-          "name": "Dubai"
-        },
-        {
-          "@type": "AdministrativeArea",
-          "name": "GCC"
-        }
-      ],
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday",
-          "Sunday"
-        ],
-        "opens": "00:00",
-        "closes": "23:59"
-      },
-      "sameAs": [
-        "https://instagram.com/waelalmouselli/",
-        "https://linkedin.com/in/wael-mouselli/"
-      ],
-      "founder": {
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "Person",
-        "name": "Wael Almouselli"
+        "@id": "https://waelalmouselli.net/#person",
+        "name": "Wael Almouselli",
+        "jobTitle": "Full-Stack Web Developer & Performance Media Buyer",
+        "url": "https://waelalmouselli.net/",
+        "image": "https://waelalmouselli.net/img/logo.webp",
+        "telephone": "+971501517909",
+        "email": "contact@waelalmouselli.net",
+        "sameAs": [
+          "https://instagram.com/waelalmouselli/",
+          "https://linkedin.com/in/wael-mouselli/"
+        ],
+        "knowsAbout": [
+          "Full-Stack Web Development",
+          "Custom JavaScript and Python Architecture",
+          "Performance Media Buying",
+          "Real Estate Meta & Google Ads",
+          "Generative Engine Optimization (GEO)",
+          "Cloudflare & Technical SEO"
+        ]
+      },
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://waelalmouselli.net/#service",
+        "name": "Wael Almouselli - Elite Web Architecture & Media Buying",
+        "url": "https://waelalmouselli.net/",
+        "image": "https://waelalmouselli.net/img/service-webdev.webp",
+        "telephone": "+971501517909",
+        "priceRange": "$$$",
+        "founder": {
+          "@id": "https://waelalmouselli.net/#person"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Dubai",
+          "addressRegion": "Dubai",
+          "addressCountry": "AE"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 25.2048,
+          "longitude": 55.2708
+        },
+        "areaServed": [
+          { "@type": "Country", "name": "United Arab Emirates" },
+          { "@type": "City", "name": "Dubai" },
+          { "@type": "AdministrativeArea", "name": "GCC" }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Services & Coaching Masterclasses",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Hire Full-Stack Developer in Dubai"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "ROI Performance Media Buying for Real Estate"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Course",
+                "name": "Full-Stack Web Developer Masterclass"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Course",
+                "name": "Performance Media Buying & ROI Mastery"
+              }
+            }
+          ]
+        }
       }
-    }
-    </script>
-  <link rel="stylesheet" href="style.css" />
+    ]
+  }
+  </script>
 
-  <!-- Preconnect & Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Outfit:wght@300;500;700&display=swap"
-    rel="stylesheet" />
+  <!-- Preload Main Visual Image for Speed (LCP) -->
+  <link rel="preload" as="image" href="img/hero-bg.webp" fetchpriority="high" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <!-- Header Navigation -->
   <header class="navbar">
     <div class="container nav-flex">
-      <div class="logo">
+      <a href="index.html" class="logo logo-link">
         <img src="img/logo.webp" alt="Wael Almouselli Logo" width="50" height="50" fetchpriority="high" />
         <span>WAEL ALMOUSELLI</span>
-      </div>
-      <nav class="nav-links">
-        <a href="index.html">Home</a>
+      </a>
+      <nav class="nav-links" id="nav-menu">
+        <a href="index.html" class="active-link">Home</a>
         <a href="#services">Services</a>
         <a href="cv.html">About Me</a>
-        <a href="index.html#courses">Courses</a>
+        <a href="#courses">Courses</a>
         <a href="#contact" class="btn-outline">Let's Talk</a>
       </nav>
       <div class="menu-toggle" id="mobile-menu">&#9776;</div>
@@ -138,33 +166,33 @@
           </div>
         </div>
 
-        <!-- The 4 Features / Icons with exact names -->
+        <!-- 4 Key Features -->
         <div class="hero-features">
           <div class="feature-card">
             <img src="img/icon-modern.webp" width="45" height="45" alt="Modern Design" class="f-img" />
             <div class="f-text">
-              <h3>Modern Design</h3>
+              <h2>Modern Design</h2>
               <p>Clean, sleek & user friendly interfaces</p>
             </div>
           </div>
           <div class="feature-card">
             <img src="img/icon-code.webp" width="45" height="45" alt="Clean Code" class="f-img" />
             <div class="f-text">
-              <h3>Clean Code</h3>
+              <h2>Clean Code</h2>
               <p>Well structured & maintainable code</p>
             </div>
           </div>
           <div class="feature-card">
             <img src="img/icon-performance.webp" width="45" height="45" alt="High Performance" class="f-img" />
             <div class="f-text">
-              <h3>High Performance</h3>
+              <h2>High Performance</h2>
               <p>Optimized for speed & performance</p>
             </div>
           </div>
           <div class="feature-card">
             <img src="img/icon-responsive.webp" width="45" height="45" alt="Fully Responsive" class="f-img" />
             <div class="f-text">
-              <h3>Fully Responsive</h3>
+              <h2>Fully Responsive</h2>
               <p>Perfect on all devices & screen sizes</p>
             </div>
           </div>
@@ -192,7 +220,7 @@
       </div>
     </section>
 
-    <!-- Services Hub (Optimized with target GEO/SEO keywords in h2/h3) -->
+    <!-- Services Hub -->
     <section class="services-hub bg-dark" id="services">
       <!-- 1. Web Development -->
       <div class="service-block">
@@ -356,7 +384,6 @@
       <p><a href="privacy.html" class="privacy-link">Privacy Policy</a> | &copy; 2026 waelalmouselli.net. All rights
         reserved.</p>
     </div>
-
   </footer>
 
   <script defer src="script.js"></script>
