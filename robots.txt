@@ -10,4 +10,4 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-Sitemap: https://waelalmouselli.net/sitemap.xml
+Sitemap: https://tarafstyleabaya.com/sitemap.xml
