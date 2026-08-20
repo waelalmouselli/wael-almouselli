@@ -1,6 +1,35 @@
-/* =========================================
-   1. Core Variables & Global Resets
-   ========================================= */
+@font-face {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('fonts/outfit-v15-latin-300.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('fonts/outfit-v15-latin-500.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('fonts/outfit-v15-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Cinzel Decorative';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('fonts/cinzel-decorative-v19-latin-700.woff2') format('woff2');
+}
+
 :root {
     --bg-dark: #0a0a0a;
     --bg-black: #000000;
@@ -66,6 +95,9 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
+}
+.logo-link {
+    text-decoration: none;
 }
 .logo span {
     font-family: 'Cinzel Decorative', cursive;
@@ -260,7 +292,7 @@ body {
     border-color: rgba(255, 255, 255, 0.2);
 }
 .f-img { width: 40px; height: 40px; object-fit: contain; flex-shrink: 0; }
-.f-text h3 { font-size: 0.9rem; font-weight: 600; color: var(--text-main); margin-bottom: 0.1rem; }
+.f-text h2, .f-text h3 { font-size: 0.9rem; font-weight: 600; color: var(--text-main); margin-bottom: 0.1rem; }
 .f-text p { font-size: 0.75rem; color: var(--text-muted); margin: 0; line-height: 1.2; }
 
 /* =========================================
@@ -411,8 +443,10 @@ body {
 .royal-instagram-badge { display: inline-flex; align-items: center; gap: 10px; padding: 0.6rem 1.5rem; background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045); color: #ffffff; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 0.95rem; box-shadow: 0 10px 25px rgba(253, 29, 29, 0.3); transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1); border: 1px solid rgba(255, 255, 255, 0.2); }
 .royal-instagram-badge:hover { transform: translateY(-4px) scale(1.03); box-shadow: 0 15px 35px rgba(253, 29, 29, 0.5); }
 .social-icon { font-size: 1.2rem; }
-.privacy-link { color: #a0a0a0; text-decoration: none; font-size: 0.9rem; }
-.privacy-link:hover { color: #ffffff; }
+
+/* تم تعديل التباين والتسطير للوصولية المرتفعة */
+.privacy-link { color: #ffffff; text-decoration: underline; font-size: 0.9rem; font-weight: 500; }
+.privacy-link:hover { color: var(--brand-green); }
 
 /* =========================================
    10. Animations
