@@ -14,8 +14,17 @@
     <!-- Preload Main Visual Image for Speed (LCP) -->
     <link rel="preload" as="image" href="img/service-webdev.webp" fetchpriority="high" />
 
-    <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="style.css" />
+    <!-- Preload Critical Fonts -->
+    <link rel="preload" href="fonts/outfit-v15-latin-300.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/outfit-v15-latin-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/outfit-v15-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/cinzel-decorative-v19-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Non-blocking CSS -->
+    <link rel="preload" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="style.css">
+    </noscript>
 </head>
 
 <body class="cv-page">
