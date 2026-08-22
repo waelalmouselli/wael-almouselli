@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="description" content="404 - Page Not Found | Wael Almouselli">
+    <title>404 - Page Not Found | Wael Almouselli</title>
+
+    <!-- Canonical Tag -->
+    <link rel="canonical" href="https://waelalmouselli.net/404.html" />
+
+    <!-- Preload Critical Fonts -->
+    <link rel="preload" href="fonts/outfit-v15-latin-300.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/outfit-v15-latin-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/outfit-v15-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/cinzel-decorative-v19-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Non-blocking CSS -->
+    <link rel="preload" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="style.css"></noscript>
+</head>
+
+<body class="error-page">
+
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="container nav-flex">
+            <a href="index.html" class="logo logo-link">
+                <img src="img/logo.webp" alt="Wael Almouselli Logo" width="50" height="50" fetchpriority="high">
+                <span>WAEL ALMOUSELLI</span>
+            </a>
+            <nav class="nav-links" id="nav-menu">
+                <a href="index.html">Home</a>
+                <a href="index.html#services">Services</a>
+                <a href="cv.html">About Me</a>
+                <a href="index.html#courses">Courses</a>
+                <a href="index.html#contact" class="btn-outline">Let's Talk</a>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">&#9776;</div>
+        </div>
+    </header>
+
+    <main>
+        <section class="error-hero-section bg-dark">
+            <canvas class="matrix-bg"></canvas>
+            <div class="container relative-z2 error-container">
+                <span class="badge royal-badge">⚠️ 404 Error</span>
+                <h1 class="error-title text-gradient">404</h1>
+                <h2 class="error-subtitle">Page Lost in Code</h2>
+                <p class="error-lead">
+                    The requested page could not be found or has been relocated. Return to the main page to explore elite web architecture & performance media buying.
+                </p>
+                <a href="index.html" class="btn-primary btn-large">Return To Home &rarr;</a>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="footer bg-black">
+        <div class="container">
+            <h2>Ready to Dominate Your Market?</h2>
+            <a href="https://wa.me/971501517909?text=Hi%20Wael,%20let's%20build%20magnificence!" target="_blank"
+                rel="noopener noreferrer" class="btn-primary btn-large">Let's Build Magnificence</a>
+
+            <div class="footer-social-box">
+                <a href="mailto:contact@waelalmouselli.net" class="royal-email-badge" title="Official Email">
+                    <span class="social-icon">✉️</span>
+                    <span class="social-text">contact@waelalmouselli.net</span>
+                </a>
+                <a href="https://instagram.com/waelalmouselli/" target="_blank" rel="noopener noreferrer"
+                    class="royal-instagram-badge" title="Official Instagram">
+                    <span class="social-icon">📸</span>
+                    <span class="social-text">Instagram Elite</span>
+                </a>
+            </div>
+
+            <p><a href="privacy.html" class="privacy-link">Privacy Policy</a> | &copy; 2026 waelalmouselli.net. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script defer src="script.js"></script>
+</body>
+
+</html>
