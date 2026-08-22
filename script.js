@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
         observer.observe(statsSection);
     }
 
-    // 2. Matrix Code Rain Engine
+    // 2. Matrix Code Rain Engine (Fixed Forced Reflow via ResizeObserver)
     const matrixCanvases = document.querySelectorAll('.matrix-bg');
     matrixCanvases.forEach(canvas => {
         const ctx = canvas.getContext('2d');
@@ -49,18 +49,22 @@ document.addEventListener("DOMContentLoaded", () => {
         let columns = 0;
         let drops = [];
 
-        const resizeCanvas = () => {
-            requestAnimationFrame(() => {
-                if (!parent) return;
-                canvas.width = parent.clientWidth;
-                canvas.height = parent.clientHeight;
-                columns = Math.floor(canvas.width / fontSize);
-                drops = Array(columns).fill(1);
-            });
-        };
+        // ResizeObserver avoids querying clientWidth/clientHeight manually
+        if (parent) {
+            const resizeObserver = new ResizeObserver(entries => {
+                for (let entry of entries) {
+                    const width = entry.contentRect.width;
+                    const height = entry.contentRect.height;
+                    if (width === 0 || height === 0) continue;
 
-        resizeCanvas();
-        window.addEventListener('resize', resizeCanvas, { passive: true });
+                    canvas.width = width;
+                    canvas.height = height;
+                    columns = Math.floor(width / fontSize);
+                    drops = Array(columns).fill(1);
+                }
+            });
+            resizeObserver.observe(parent);
+        }
 
         const drawMatrix = () => {
             ctx.fillStyle = 'rgba(10, 10, 10, 0.08)';
