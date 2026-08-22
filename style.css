@@ -1,3 +1,6 @@
+/* =========================================
+   0. Local Fonts Definition
+   ========================================= */
 @font-face {
     font-family: 'Outfit';
     font-style: normal;
@@ -30,6 +33,9 @@
     src: url('fonts/cinzel-decorative-v19-latin-700.woff2') format('woff2');
 }
 
+/* =========================================
+   1. Core Variables & Global Resets
+   ========================================= */
 :root {
     --bg-dark: #0a0a0a;
     --bg-black: #000000;
@@ -509,4 +515,46 @@ body {
     
     /* CV Mobile Extra Fixes */
     .cv-content h1 { font-size: 2.2rem !important; }
+}
+
+/* =========================================
+   13. 404 Page Styles
+   ========================================= */
+.error-hero-section {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+}
+.error-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 650px;
+}
+.error-title {
+    font-size: 7rem;
+    font-weight: 800;
+    line-height: 1;
+    margin: 1rem 0 0.5rem;
+}
+.error-subtitle {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--text-main);
+}
+.error-lead {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+@media (max-width: 650px) {
+    .error-title { font-size: 4.5rem; }
+    .error-subtitle { font-size: 1.5rem; }
 }
